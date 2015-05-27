@@ -1,0 +1,5 @@
+<launch>
+	<node name="face_detector_node" pkg="face_detector" type="face_detector_node" output="screen"/> 
+	<node name="get_location_node" pkg="get_location" type="get_location_node" output="screen"/>
+	<node name="set_markers_node" pkg="set_markers" type="set_markers_node" output="screen"/>
+</launch>
